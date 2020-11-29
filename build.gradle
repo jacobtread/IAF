@@ -13,7 +13,7 @@ repositories {
 
 jar {
     manifest {
-        attributes 'Main-Class': 'me.jacobtread.tells.Main'
+        attributes 'Main-Class': 'me.jacobtread.iaf.Main'
     }
     from {
         configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
